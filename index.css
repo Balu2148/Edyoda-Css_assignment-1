@@ -1,0 +1,146 @@
+body{
+    margin-left: 180px;
+    margin-top: 40px;
+}
+header .head_image{
+    display: inline-flex;
+    
+}
+.head_image{
+    width: 10%;
+
+}
+.head_image img{
+    width: 100%;
+}
+ul{
+    display: flex;
+    width: 40%;
+    margin-top: -50px;
+    margin-left: 250px;
+}
+li{
+    margin: auto;
+    padding: 10px;
+    list-style-type: none;
+
+}
+li:hover{
+    text-decoration: underline blue;
+    /* border-bottom: 3px solid blue;
+    padding: 0px; */
+    /* overflow: hidden;
+    position: sticky; */
+}
+#btn_1{
+    display: flex;
+    border: none;
+    background-color: #ffd8db;
+    padding: 15px 25px;
+    border-radius: 25px;
+    margin-left:900px;
+    margin-top:-50px;
+    color:blue;
+    font-weight:bolder;
+}
+h1{
+    margin-top: 60px;
+    margin-left: 80px;
+    font-size: 40px;
+}
+p{
+    color: black;
+    margin-left: 20px;
+}
+#stop{
+    display: flex;
+   /*  color: blue;
+    /* font-size: 50px;
+    margin-top: -20px; */
+    /* width: 10px;
+    height: 14px; */
+    /* background-color: blue;
+    border-left: 8px solid blue; */
+    width: 10px;
+    height: 10px;
+    background-color:#b89dcf;
+    margin-top: -19px;
+    margin-left: 189px;
+
+}
+.contain{
+    display: flex;
+    margin-top: 30px;
+}#img1 #img2{
+    display: flex;
+    margin-left: 140px;
+}
+#btn_2{
+    border: none;
+    background-color: blue;
+    padding: 15px 25px;
+    border-radius: 25px;
+    /* margin-left:1080px; */
+    /* margin-top:30px; */
+    color:#fff;
+    font-weight:bolder;
+}
+.left{
+    display: flex;
+    margin-top: -480px;
+    margin-left: 25%;
+   height: 550px;
+   width: 100%;
+}
+
+.cards{
+    width: 300px;
+    height: 200px;
+    margin-right: 280px;
+    margin-top: 30px;
+}
+.card{
+    width: 285px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.blue{
+    display: none;
+}
+.card:hover{
+    box-shadow: 12px 12px 102px silver;
+}
+.spin1{
+    width: 20px;
+    height: 10px;
+    background-color: pink;
+    border-radius: 12px;
+}
+.spin2{
+    width: 20px;
+    height: 10px;
+    background-color:red;
+    border-radius: 12px;
+}
+.spin3{
+    width: 20px;
+    height: 10px;
+    background-color:green;
+    border-radius: 12px;
+}
+.spin4{
+    width: 20px;
+    height: 10px;
+    background-color:yellow;
+    border-radius: 12px;
+}
+/* .card:hover .blue{
+    display: inline-flex;
+    margin-right: 20px;
+} */
+/* .card:hover .grey{
+    display: none;
+} */
